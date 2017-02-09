@@ -13,7 +13,7 @@
 <body>
 	<header>
 		<img src="images/logo.png" alt="Town Hall logo" height="67">
-		<img src="images/header_thumb.png" alt="Mahi Picture" border="0" height="112">
+		<img src="images/header_thumb.png" alt="Mahendra Picture" border="0" height="112">
 
 
 	</header>
