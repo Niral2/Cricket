@@ -60,7 +60,7 @@
 
 		<aside id="asideLeft">
                 <h2>Navigation</h2>
-                <a href="index.html">
+                <a href="index.php">
                     <br><img src="images/Home.png" alt="Home" height="80px"/></a>
                 <a href="cricket.html">
                     <br><img src="images/cricket.png" alt="Cricket" height="80px"/></a>
