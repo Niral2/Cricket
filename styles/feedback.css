@@ -1,0 +1,60 @@
+/* the styles for the elements */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/* the styles for the section */
+section {
+	width: 360px;
+	display: inline-block;
+	padding: 0 20px 20px 20px;
+}
+section h1 {
+	font-size: 150%;
+	padding: .5em 0 .25em 0;
+	margin: 0;               /* If you remove this, the margins in normalize.css will be applied. */
+}
+section h2 {
+	color: black;
+	font-size: 130%;
+	padding: .5em 0 .25em 0;
+	text-align: center;
+	margin: .5em 0 1em 1em;
+}
+#asideLeft{
+    float:left;
+    border-right: 2px #023a72 solid;
+    width: 135px;
+}
+#asideLeft img:hover{
+    -webkit-transform:scale(1.25); /* Safari and Chrome */
+    -moz-transform:scale(1.25); /* Firefox */
+    -ms-transform:scale(1.25); /* IE 9 */
+    -o-transform:scale(1.25); /* Opera */
+     transform:scale(1.25);
+}
+table{
+	font-size: 95%;
+}
+
+/* the styles for the article */
+article {
+	padding: .5em 0;
+}
+article h2 {
+	padding-top: 0;
+}
+article h3 {
+	font-size: 105%;
+	padding-bottom: .25em;
+}
+article img {
+	float: right;
+	margin: .5em 0 1em 1em;
+}
+figure{
+	float:none;
+
+}
+

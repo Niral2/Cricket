@@ -1,0 +1,190 @@
+/* the styles for the elements */
+* {
+	margin: 0;
+	padding: 0;
+}
+html {
+
+	 background-image: url(../images/background2.jpg);
+
+	 /*background-size: cover;*/
+	 background-size: 130% 100%;
+	 background-repeat: no-repeat;
+}
+body {
+	font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    width: 900px;
+    margin: 0 auto;
+    /*background-color: #fffded;*/
+	background-color: white;
+	background-image: url(../images/Bottom_texture.jpg);
+}
+a:focus, a:hover {
+	font-style: italic;
+}
+/* the styles for the header */
+header {
+	padding: .5em 0 7em 0;
+	border-bottom: 3px solid black;
+		background-image: -moz-linear-gradient(
+	    30deg, #f6bb73 0%, #f6bb73 30%, white 50%, #f6bb73 80%, #f6bb73 100%);
+	background-image: -webkit-linear-gradient(
+	    30deg, #f6bb73 0%, #fffded 30%, white 50%, #fffded 80%, #f6bb73 100%);
+	background-image: -o-linear-gradient(
+	    30deg, #f6bb73 0%, #fffded 30%, white 50%, #fffded 80%, #f6bb73 100%);
+	background-image: linear-gradient(
+	    30deg, #f6bb73 0%, #fffded 30%, white 50%, #fffded 80%, #f6bb73 100%);
+	background-image: url(../images/background2.jpg);
+}
+header img {
+	float: left;
+}
+
+
+
+/*Navigation Menu Styles*/
+#nav_menu ul{
+    list-style: none;
+    position: relative;
+}
+#nav_menu ul li{
+    float: left;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+#nav_menu ul ul{
+    display: none;
+    top: 100%;
+    position: absolute;
+
+}
+
+#nav_menu ul li a{
+    display: block;
+    width: 225px;
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    /*background-color: #800000;*/
+	background-image: url(../images/menu_bg.jpg);
+    color: white;
+    font-weight: bold;
+    top: 100%;
+    text-decoration: none;
+
+
+}
+
+#nav_menu ul ul li{
+    float: none;
+
+}
+
+#nav_menu ul li ul li{
+    background-image: url(../images/menu_bg.jpg);
+    color: white;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    padding-left: .5em;
+    padding-right: .5em;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+#nav_menu ul li a.current{
+    font-style: italic;
+
+}
+#nav_menu ul li:hover>ul{
+    display: block;
+
+
+}
+#nav_menu>ul::after{
+    content: "";
+    clear: both;
+    display: block;
+
+}
+
+#nav_menu ul ul li ul{
+    position: absolute;
+	left: 100%;
+	top: 0;
+	width: 160px;
+}
+#nav_menu li a:hover {
+	background-position: 0 -59px;
+	background: blue;
+}
+/* the styles for the main content */
+main {
+	clear: left;
+}
+/* the styles for the section */
+
+
+/* the styles for the article */
+
+
+/* the styles for the aside */
+aside {
+	width: 215px;
+	float: right;
+	padding: 0 0 20px 20px;
+	float: left;
+}
+aside h2 {
+	color: black;
+	font-size: 130%;
+	padding: .5em 0 .25em 0;
+}
+
+aside h3 {
+	font-size: 105%;
+	padding-bottom: .25em;
+}
+aside img {
+	padding-bottom: 1em;
+}
+#right-side {
+	float: right;
+}
+ul#ticker li {
+    width: 180px;
+    cursor: pointer;
+    height: 99px;
+    padding: 10px;
+    color: black;
+    font: normal 10px 'lucida Grande', 'Lucida Sans Unicode';
+    line-height: 20px;
+}
+ul#ticker {
+    list-style-type: none;
+    width: 332px;
+    height: 470px;
+    overflow: hidden;
+}
+#head_pic {
+	background-image: url(../images/menu_bg.jpg);
+	margin: 1em 1em .1em 1em;
+	padding: .5em .5em;
+    text-align: center;
+}
+#left-side {
+	float: left;
+}
+/* the styles for the footer */
+footer {
+	background-image: url(../images/menu_bg.jpg);
+	clear: both;
+
+}
+footer p {
+	text-align: center;
+	color: white;
+	padding: 1em 0;
+}
